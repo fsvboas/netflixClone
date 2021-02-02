@@ -1,0 +1,66 @@
+@media (max-width: 700px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav {
+        margin-bottom: 20px;
+    }
+
+    .watch .title {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 580px) {
+    .watch .title {
+        font-size: 35px;
+    }
+    .watch .description {   
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 540px) {
+    .btn {
+        padding: 15px 20px;
+    }
+}
+
+@media (max-width: 452px) {
+    .watch .title {
+        font-size: 28px;
+    }
+
+    .watch .description {
+        font-size: 14px;
+    }
+
+    .btn {
+        padding: 10px 10px;
+    }
+}
+
+@media (max-width: 360px) {
+    nav {
+        font-size: 13px;
+    }
+    .watch .title {
+        font-size: 24px;
+    }
+
+    .watch .description {
+        font-size: 12px;
+    }
+
+    .btn {
+        padding: 10px 7px;
+    }
+}
+
+@media (min-width: 1000px) {
+    .description {
+        width: 60%;
+    }
+}

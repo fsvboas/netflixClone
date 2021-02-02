@@ -1,0 +1,139 @@
+:root {
+    --red: #E50914;
+    --black: #141414;
+}
+
+* {
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--black);
+
+    font-family: 'Times New Roman', Times, serif;
+
+    color: #fff;
+}
+
+/* HEADER */
+header .container {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    margin-left: 5px;
+    
+    color: var(--red);
+
+    text-transform: uppercase;
+
+    font-family: 'Arial Black', Times;
+    font-size: 40px;
+}
+
+.logo {
+    width: 125px;
+}
+
+header nav a {
+    text-decoration: none;
+
+    color: #AAA;
+
+    margin-right: 10px;
+
+    font-family:'Trebuchet MS', Arial, sans-serif;
+}
+
+header nav a:hover {
+    color: #fff;
+}
+
+/* MAIN */
+.watch {
+    font-size: 16px;
+
+    background: linear-gradient(rgba(0, 0, 0, .50),rgba(0, 0, 0, .50)100%), url('/images/pb.jpg');
+    background-size: cover;
+
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.watch .title {
+    text-transform: uppercase;
+
+    font-family:'Trebuchet MS', Arial, sans-serif;
+    font-size: 50px;
+
+    margin-top: 15%;
+}
+
+.watch .description {
+    font-family:'Trebuchet MS', Arial, sans-serif;
+    font-size: 20px;
+
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.btn {
+    background-color: rgba(0, 0, 0, .50);
+ 
+    border: none;
+
+    color: white;
+
+    padding: 15px 40px;
+
+    margin-right: 15px;
+
+    font-size: 14px;
+
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #fff;
+
+    color: #000;
+
+    transition: 400ms ease all;
+}
+
+.btn i {
+    margin-right: 8px;
+}
+
+.container {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.watch .container {
+    width: 60%;
+}
+
+.movie-box {
+    height: 100%;
+    width: 100%;
+
+    display: block;
+}
+
+.carousel {
+    margin-top: 10px;
+}
